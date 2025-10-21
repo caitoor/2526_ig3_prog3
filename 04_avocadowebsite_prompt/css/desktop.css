@@ -1,0 +1,27 @@
+/* css/desktop.css */
+/* Desktop ≥900px */
+.site-header .wrapper{padding:14px 24px}
+.brand-title{font-size:22px}
+
+.hero{padding:40px 0}
+.hero-copy h1{font-size:44px}
+.hero-copy p{font-size:18px}
+
+.feature{padding:40px 0}
+.cards{padding:40px 0}
+.timeline{padding:40px 0}
+
+.cards-grid{
+  gap:24px;
+}
+
+.footer-grid{
+  padding:24px 24px;
+}
+
+.card{padding:16px}
+.btn{padding:12px 18px}
+
+.feature-grid{
+  gap:32px;
+}

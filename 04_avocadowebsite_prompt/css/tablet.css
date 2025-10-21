@@ -1,0 +1,27 @@
+/* css/tablet.css */
+/* Tablet ≥600px */
+.wrapper{padding:0 24px}
+
+.hero-inner{
+  grid-template-columns:1fr 1fr;
+  align-items:center;
+}
+.hero-copy h1{font-size:36px}
+
+.feature-grid{
+  grid-template-columns:1fr 1fr;
+  align-items:center;
+  gap:24px;
+}
+
+.cards-grid{
+  grid-template-columns:repeat(3,1fr);
+}
+
+.footer-grid{
+  grid-template-columns:2fr 1fr 1fr;
+  align-items:start;
+}
+
+.nav{gap:12px}
+.nav a{padding:10px 12px}
