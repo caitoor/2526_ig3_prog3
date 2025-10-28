@@ -5,8 +5,34 @@ body {
 }
 
 nav {
-    display:flex;
+    display: flex;
     justify-content: space-between;
+}
+
+a {
+    background-color: violet;
+}
+
+.highlighted {
+    color: magenta;
+    font-size: 1.5em;
+}
+
+.ugly {
+    font-size: 4em;
+}
+
+#cta {
+    background-color: orange;
+    color: white;
+    font-size: 1.2em;
+    border: 4px dashed purple;
+}
+
+.active-link {
+    background-color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
 }
 
 footer {
