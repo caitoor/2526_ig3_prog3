@@ -1,0 +1,1195 @@
+{
+    "dataset": {
+        "title": "Avocado Recipes — Modular JSON",
+        "version": "1.0",
+        "meta": {
+            "author": "Generated",
+            "locale": "de-DE",
+            "category": "Food & Cooking",
+            "tags": [
+                "avocado",
+                "recipes",
+                "modular"
+            ],
+            "createdAt": "2025-10-20"
+        },
+        "units": {
+            "pcs": "piece",
+            "g": "gram",
+            "kg": "kilogram",
+            "ml": "milliliter",
+            "l": "liter",
+            "tbsp": "tablespoon",
+            "tsp": "teaspoon",
+            "pinch": "pinch"
+        }
+    },
+    "recipes": [
+        {
+            "id": "r1",
+            "title": "Classic Guacamole",
+            "meta": {
+                "author": "Generated",
+                "origin_country": "Mexico",
+                "category": "Dip",
+                "servings": 4,
+                "diet": [
+                    "vegan",
+                    "gluten-free"
+                ],
+                "difficulty": "easy",
+                "total_time_min": 10
+            },
+            "equipment": [
+                "bowl",
+                "fork",
+                "knife",
+                "cutting board"
+            ],
+            "ingredients": [
+                {
+                    "id": "r1i1",
+                    "name": "Avocado",
+                    "quantity": 3,
+                    "unit": "pcs",
+                    "notes": "ripe"
+                },
+                {
+                    "id": "r1i2",
+                    "name": "Red onion",
+                    "quantity": 40,
+                    "unit": "g"
+                },
+                {
+                    "id": "r1i3",
+                    "name": "Tomato",
+                    "quantity": 80,
+                    "unit": "g"
+                },
+                {
+                    "id": "r1i4",
+                    "name": "Cilantro",
+                    "quantity": 10,
+                    "unit": "g"
+                },
+                {
+                    "id": "r1i5",
+                    "name": "Lime juice",
+                    "quantity": 2,
+                    "unit": "tbsp"
+                },
+                {
+                    "id": "r1i6",
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                },
+                {
+                    "id": "r1i7",
+                    "name": "Jalapeño",
+                    "quantity": 1,
+                    "unit": "pcs",
+                    "notes": "seeded, minced"
+                }
+            ],
+            "steps": [
+                {
+                    "index": 1,
+                    "caption": "Mash",
+                    "description": "Scoop avocado flesh into a bowl and mash with a fork to preferred texture.",
+                    "duration_min": 3,
+                    "uses": [
+                        "r1i1"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "caption": "Fold in veg",
+                    "description": "Add onion, tomato, cilantro, and jalapeño. Fold until combined.",
+                    "duration_min": 4,
+                    "uses": [
+                        "r1i2",
+                        "r1i3",
+                        "r1i4",
+                        "r1i7"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "caption": "Season",
+                    "description": "Stir in lime juice and salt. Adjust to taste.",
+                    "duration_min": 3,
+                    "uses": [
+                        "r1i5",
+                        "r1i6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "r2",
+            "title": "Avocado Toast Trio",
+            "meta": {
+                "author": "Generated",
+                "origin_country": "USA",
+                "category": "Breakfast",
+                "servings": 2,
+                "diet": [
+                    "vegetarian"
+                ],
+                "difficulty": "easy",
+                "total_time_min": 12
+            },
+            "equipment": [
+                "toaster",
+                "knife",
+                "bowl"
+            ],
+            "ingredients": [
+                {
+                    "id": "r2i1",
+                    "name": "Bread slices",
+                    "quantity": 4,
+                    "unit": "pcs"
+                },
+                {
+                    "id": "r2i2",
+                    "name": "Avocado",
+                    "quantity": 2,
+                    "unit": "pcs"
+                },
+                {
+                    "id": "r2i3",
+                    "name": "Lemon juice",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "id": "r2i4",
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                },
+                {
+                    "id": "r2i5",
+                    "name": "Cherry tomatoes",
+                    "quantity": 100,
+                    "unit": "g"
+                },
+                {
+                    "id": "r2i6",
+                    "name": "Feta cheese",
+                    "quantity": 60,
+                    "unit": "g"
+                },
+                {
+                    "id": "r2i7",
+                    "name": "Chili flakes",
+                    "quantity": 0.25,
+                    "unit": "tsp"
+                },
+                {
+                    "id": "r2i8",
+                    "name": "Olive oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                }
+            ],
+            "steps": [
+                {
+                    "index": 1,
+                    "caption": "Toast",
+                    "description": "Toast bread until crisp.",
+                    "duration_min": 4,
+                    "uses": [
+                        "r2i1"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "caption": "Mash base",
+                    "description": "Mash avocado with lemon juice and salt.",
+                    "duration_min": 3,
+                    "uses": [
+                        "r2i2",
+                        "r2i3",
+                        "r2i4"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "caption": "Assemble three ways",
+                    "description": "Spread mash on toast. Top one with tomatoes, one with feta, and one with chili flakes and olive oil (split across toasts).",
+                    "duration_min": 5,
+                    "uses": [
+                        "r2i1",
+                        "r2i5",
+                        "r2i6",
+                        "r2i7",
+                        "r2i8",
+                        "r2i2"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "r3",
+            "title": "Creamy Avocado Lime Pasta",
+            "meta": {
+                "author": "Generated",
+                "origin_country": "Italy",
+                "category": "Main",
+                "servings": 3,
+                "diet": [
+                    "vegan"
+                ],
+                "difficulty": "easy",
+                "total_time_min": 20
+            },
+            "equipment": [
+                "pot",
+                "blender",
+                "colander"
+            ],
+            "ingredients": [
+                {
+                    "id": "r3i1",
+                    "name": "Spaghetti",
+                    "quantity": 300,
+                    "unit": "g"
+                },
+                {
+                    "id": "r3i2",
+                    "name": "Avocado",
+                    "quantity": 2,
+                    "unit": "pcs"
+                },
+                {
+                    "id": "r3i3",
+                    "name": "Lime juice",
+                    "quantity": 2,
+                    "unit": "tbsp"
+                },
+                {
+                    "id": "r3i4",
+                    "name": "Garlic",
+                    "quantity": 1,
+                    "unit": "pcs"
+                },
+                {
+                    "id": "r3i5",
+                    "name": "Olive oil",
+                    "quantity": 2,
+                    "unit": "tbsp"
+                },
+                {
+                    "id": "r3i6",
+                    "name": "Salt",
+                    "quantity": 1,
+                    "unit": "tsp"
+                },
+                {
+                    "id": "r3i7",
+                    "name": "Black pepper",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                },
+                {
+                    "id": "r3i8",
+                    "name": "Basil leaves",
+                    "quantity": 10,
+                    "unit": "g"
+                }
+            ],
+            "steps": [
+                {
+                    "index": 1,
+                    "caption": "Cook pasta",
+                    "description": "Boil spaghetti in salted water until al dente. Drain, reserve a little cooking water.",
+                    "duration_min": 10,
+                    "uses": [
+                        "r3i1",
+                        "r3i6"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "caption": "Blend sauce",
+                    "description": "Blend avocado, lime juice, garlic, olive oil, salt, pepper, and basil to a smooth sauce.",
+                    "duration_min": 5,
+                    "uses": [
+                        "r3i2",
+                        "r3i3",
+                        "r3i4",
+                        "r3i5",
+                        "r3i6",
+                        "r3i7",
+                        "r3i8"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "caption": "Combine",
+                    "description": "Toss pasta with sauce, adding cooking water as needed.",
+                    "duration_min": 5,
+                    "uses": [
+                        "r3i1",
+                        "r3i2"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "r4",
+            "title": "Avocado Sushi Bowl",
+            "meta": {
+                "author": "Generated",
+                "origin_country": "Japan",
+                "category": "Bowl",
+                "servings": 2,
+                "diet": [
+                    "vegan"
+                ],
+                "difficulty": "easy",
+                "total_time_min": 25
+            },
+            "equipment": [
+                "pot",
+                "bowl",
+                "knife"
+            ],
+            "ingredients": [
+                {
+                    "id": "r4i1",
+                    "name": "Sushi rice",
+                    "quantity": 200,
+                    "unit": "g"
+                },
+                {
+                    "id": "r4i2",
+                    "name": "Rice vinegar",
+                    "quantity": 2,
+                    "unit": "tbsp"
+                },
+                {
+                    "id": "r4i3",
+                    "name": "Sugar",
+                    "quantity": 1,
+                    "unit": "tsp"
+                },
+                {
+                    "id": "r4i4",
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                },
+                {
+                    "id": "r4i5",
+                    "name": "Avocado",
+                    "quantity": 1,
+                    "unit": "pcs"
+                },
+                {
+                    "id": "r4i6",
+                    "name": "Cucumber",
+                    "quantity": 100,
+                    "unit": "g"
+                },
+                {
+                    "id": "r4i7",
+                    "name": "Nori strips",
+                    "quantity": 1,
+                    "unit": "pcs"
+                },
+                {
+                    "id": "r4i8",
+                    "name": "Soy sauce",
+                    "quantity": 2,
+                    "unit": "tbsp"
+                },
+                {
+                    "id": "r4i9",
+                    "name": "Sesame seeds",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                }
+            ],
+            "steps": [
+                {
+                    "index": 1,
+                    "caption": "Cook rice",
+                    "description": "Cook sushi rice per package. Season with vinegar, sugar, and salt.",
+                    "duration_min": 15,
+                    "uses": [
+                        "r4i1",
+                        "r4i2",
+                        "r4i3",
+                        "r4i4"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "caption": "Prep toppings",
+                    "description": "Slice avocado and cucumber; cut nori into thin strips.",
+                    "duration_min": 5,
+                    "uses": [
+                        "r4i5",
+                        "r4i6",
+                        "r4i7"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "caption": "Assemble bowl",
+                    "description": "Top rice with avocado, cucumber, nori, soy sauce, and sesame.",
+                    "duration_min": 5,
+                    "uses": [
+                        "r4i1",
+                        "r4i5",
+                        "r4i6",
+                        "r4i7",
+                        "r4i8",
+                        "r4i9"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "r5",
+            "title": "Avocado Chocolate Mousse",
+            "meta": {
+                "author": "Generated",
+                "origin_country": "France",
+                "category": "Dessert",
+                "servings": 4,
+                "diet": [
+                    "vegan",
+                    "gluten-free"
+                ],
+                "difficulty": "easy",
+                "total_time_min": 15
+            },
+            "equipment": [
+                "blender",
+                "spatula",
+                "bowls"
+            ],
+            "ingredients": [
+                {
+                    "id": "r5i1",
+                    "name": "Avocado",
+                    "quantity": 2,
+                    "unit": "pcs"
+                },
+                {
+                    "id": "r5i2",
+                    "name": "Cocoa powder",
+                    "quantity": 30,
+                    "unit": "g"
+                },
+                {
+                    "id": "r5i3",
+                    "name": "Maple syrup",
+                    "quantity": 60,
+                    "unit": "ml"
+                },
+                {
+                    "id": "r5i4",
+                    "name": "Vanilla extract",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                },
+                {
+                    "id": "r5i5",
+                    "name": "Pinch of salt",
+                    "quantity": 1,
+                    "unit": "pinch"
+                },
+                {
+                    "id": "r5i6",
+                    "name": "Plant milk",
+                    "quantity": 30,
+                    "unit": "ml"
+                }
+            ],
+            "steps": [
+                {
+                    "index": 1,
+                    "caption": "Blend",
+                    "description": "Blend all ingredients until smooth.",
+                    "duration_min": 5,
+                    "uses": [
+                        "r5i1",
+                        "r5i2",
+                        "r5i3",
+                        "r5i4",
+                        "r5i5",
+                        "r5i6"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "caption": "Chill",
+                    "description": "Divide into bowls and chill briefly.",
+                    "duration_min": 10,
+                    "uses": []
+                }
+            ]
+        },
+        {
+            "id": "r6",
+            "title": "Baked Avocado Egg Boats",
+            "meta": {
+                "author": "Generated",
+                "origin_country": "USA",
+                "category": "Brunch",
+                "servings": 2,
+                "diet": [
+                    "gluten-free"
+                ],
+                "difficulty": "easy",
+                "total_time_min": 20
+            },
+            "equipment": [
+                "oven",
+                "baking tray",
+                "spoon"
+            ],
+            "ingredients": [
+                {
+                    "id": "r6i1",
+                    "name": "Avocado",
+                    "quantity": 2,
+                    "unit": "pcs"
+                },
+                {
+                    "id": "r6i2",
+                    "name": "Eggs",
+                    "quantity": 2,
+                    "unit": "pcs"
+                },
+                {
+                    "id": "r6i3",
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                },
+                {
+                    "id": "r6i4",
+                    "name": "Black pepper",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                },
+                {
+                    "id": "r6i5",
+                    "name": "Chives",
+                    "quantity": 5,
+                    "unit": "g"
+                }
+            ],
+            "steps": [
+                {
+                    "index": 1,
+                    "caption": "Prep avocados",
+                    "description": "Halve avocados and scoop a bit to enlarge the well.",
+                    "duration_min": 3,
+                    "uses": [
+                        "r6i1"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "caption": "Fill and bake",
+                    "description": "Crack eggs into the wells, season, and bake at 200°C until set.",
+                    "duration_min": 14,
+                    "uses": [
+                        "r6i2",
+                        "r6i3",
+                        "r6i4"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "caption": "Finish",
+                    "description": "Top with chopped chives and serve.",
+                    "duration_min": 3,
+                    "uses": [
+                        "r6i5"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "r7",
+            "title": "Avocado Mango Salsa",
+            "meta": {
+                "author": "Generated",
+                "origin_country": "Mexico",
+                "category": "Salsa",
+                "servings": 4,
+                "diet": [
+                    "vegan",
+                    "gluten-free"
+                ],
+                "difficulty": "easy",
+                "total_time_min": 10
+            },
+            "equipment": [
+                "bowl",
+                "knife"
+            ],
+            "ingredients": [
+                {
+                    "id": "r7i1",
+                    "name": "Avocado",
+                    "quantity": 2,
+                    "unit": "pcs"
+                },
+                {
+                    "id": "r7i2",
+                    "name": "Mango",
+                    "quantity": 1,
+                    "unit": "pcs"
+                },
+                {
+                    "id": "r7i3",
+                    "name": "Red onion",
+                    "quantity": 40,
+                    "unit": "g"
+                },
+                {
+                    "id": "r7i4",
+                    "name": "Lime juice",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "id": "r7i5",
+                    "name": "Cilantro",
+                    "quantity": 8,
+                    "unit": "g"
+                },
+                {
+                    "id": "r7i6",
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "index": 1,
+                    "caption": "Dice",
+                    "description": "Dice avocado, mango, and onion.",
+                    "duration_min": 5,
+                    "uses": [
+                        "r7i1",
+                        "r7i2",
+                        "r7i3"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "caption": "Mix",
+                    "description": "Combine in a bowl with lime juice, cilantro, and salt.",
+                    "duration_min": 5,
+                    "uses": [
+                        "r7i4",
+                        "r7i5",
+                        "r7i6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "r8",
+            "title": "Chilled Avocado Gazpacho",
+            "meta": {
+                "author": "Generated",
+                "origin_country": "Spain",
+                "category": "Soup",
+                "servings": 3,
+                "diet": [
+                    "vegan",
+                    "gluten-free"
+                ],
+                "difficulty": "easy",
+                "total_time_min": 15
+            },
+            "equipment": [
+                "blender",
+                "refrigerator"
+            ],
+            "ingredients": [
+                {
+                    "id": "r8i1",
+                    "name": "Avocado",
+                    "quantity": 2,
+                    "unit": "pcs"
+                },
+                {
+                    "id": "r8i2",
+                    "name": "Cucumber",
+                    "quantity": 200,
+                    "unit": "g"
+                },
+                {
+                    "id": "r8i3",
+                    "name": "Green bell pepper",
+                    "quantity": 100,
+                    "unit": "g"
+                },
+                {
+                    "id": "r8i4",
+                    "name": "Garlic",
+                    "quantity": 1,
+                    "unit": "pcs"
+                },
+                {
+                    "id": "r8i5",
+                    "name": "Olive oil",
+                    "quantity": 2,
+                    "unit": "tbsp"
+                },
+                {
+                    "id": "r8i6",
+                    "name": "Lime juice",
+                    "quantity": 2,
+                    "unit": "tbsp"
+                },
+                {
+                    "id": "r8i7",
+                    "name": "Cold water",
+                    "quantity": 150,
+                    "unit": "ml"
+                },
+                {
+                    "id": "r8i8",
+                    "name": "Salt",
+                    "quantity": 0.75,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "index": 1,
+                    "caption": "Blend",
+                    "description": "Blend all ingredients until smooth.",
+                    "duration_min": 5,
+                    "uses": [
+                        "r8i1",
+                        "r8i2",
+                        "r8i3",
+                        "r8i4",
+                        "r8i5",
+                        "r8i6",
+                        "r8i7",
+                        "r8i8"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "caption": "Chill",
+                    "description": "Chill before serving.",
+                    "duration_min": 10,
+                    "uses": []
+                }
+            ]
+        },
+        {
+            "id": "r9",
+            "title": "Quinoa-Stuffed Avocados",
+            "meta": {
+                "author": "Generated",
+                "origin_country": "Peru",
+                "category": "Main",
+                "servings": 2,
+                "diet": [
+                    "vegan",
+                    "gluten-free"
+                ],
+                "difficulty": "easy",
+                "total_time_min": 25
+            },
+            "equipment": [
+                "pot",
+                "bowl",
+                "knife"
+            ],
+            "ingredients": [
+                {
+                    "id": "r9i1",
+                    "name": "Quinoa",
+                    "quantity": 120,
+                    "unit": "g"
+                },
+                {
+                    "id": "r9i2",
+                    "name": "Water",
+                    "quantity": 240,
+                    "unit": "ml"
+                },
+                {
+                    "id": "r9i3",
+                    "name": "Avocado",
+                    "quantity": 2,
+                    "unit": "pcs"
+                },
+                {
+                    "id": "r9i4",
+                    "name": "Corn kernels",
+                    "quantity": 100,
+                    "unit": "g"
+                },
+                {
+                    "id": "r9i5",
+                    "name": "Black beans",
+                    "quantity": 100,
+                    "unit": "g",
+                    "notes": "cooked, rinsed"
+                },
+                {
+                    "id": "r9i6",
+                    "name": "Lime juice",
+                    "quantity": 1.5,
+                    "unit": "tbsp"
+                },
+                {
+                    "id": "r9i7",
+                    "name": "Cumin",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                },
+                {
+                    "id": "r9i8",
+                    "name": "Salt",
+                    "quantity": 0.75,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "index": 1,
+                    "caption": "Cook quinoa",
+                    "description": "Simmer quinoa in water until fluffy.",
+                    "duration_min": 15,
+                    "uses": [
+                        "r9i1",
+                        "r9i2"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "caption": "Mix filling",
+                    "description": "Combine quinoa with corn, beans, lime juice, cumin, and salt.",
+                    "duration_min": 5,
+                    "uses": [
+                        "r9i1",
+                        "r9i4",
+                        "r9i5",
+                        "r9i6",
+                        "r9i7",
+                        "r9i8"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "caption": "Fill avocados",
+                    "description": "Halve avocados and fill with quinoa mixture.",
+                    "duration_min": 5,
+                    "uses": [
+                        "r9i3",
+                        "r9i1"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "r10",
+            "title": "Avocado Pesto Zoodles",
+            "meta": {
+                "author": "Generated",
+                "origin_country": "Italy",
+                "category": "Main",
+                "servings": 2,
+                "diet": [
+                    "vegan",
+                    "gluten-free"
+                ],
+                "difficulty": "easy",
+                "total_time_min": 15
+            },
+            "equipment": [
+                "spiralizer",
+                "blender",
+                "pan"
+            ],
+            "ingredients": [
+                {
+                    "id": "r10i1",
+                    "name": "Zucchini",
+                    "quantity": 400,
+                    "unit": "g"
+                },
+                {
+                    "id": "r10i2",
+                    "name": "Avocado",
+                    "quantity": 1,
+                    "unit": "pcs"
+                },
+                {
+                    "id": "r10i3",
+                    "name": "Basil",
+                    "quantity": 15,
+                    "unit": "g"
+                },
+                {
+                    "id": "r10i4",
+                    "name": "Pine nuts",
+                    "quantity": 20,
+                    "unit": "g"
+                },
+                {
+                    "id": "r10i5",
+                    "name": "Lemon juice",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "id": "r10i6",
+                    "name": "Olive oil",
+                    "quantity": 1.5,
+                    "unit": "tbsp"
+                },
+                {
+                    "id": "r10i7",
+                    "name": "Salt",
+                    "quantity": 0.75,
+                    "unit": "tsp"
+                },
+                {
+                    "id": "r10i8",
+                    "name": "Nutritional yeast",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                }
+            ],
+            "steps": [
+                {
+                    "index": 1,
+                    "caption": "Spiralize",
+                    "description": "Make zucchini noodles.",
+                    "duration_min": 5,
+                    "uses": [
+                        "r10i1"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "caption": "Blend pesto",
+                    "description": "Blend avocado, basil, pine nuts, lemon juice, olive oil, salt, and nutritional yeast.",
+                    "duration_min": 5,
+                    "uses": [
+                        "r10i2",
+                        "r10i3",
+                        "r10i4",
+                        "r10i5",
+                        "r10i6",
+                        "r10i7",
+                        "r10i8"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "caption": "Toss",
+                    "description": "Warm zoodles briefly in a pan and toss with pesto.",
+                    "duration_min": 5,
+                    "uses": [
+                        "r10i1",
+                        "r10i2"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "r11",
+            "title": "Avocado Chickpea Salad Wrap",
+            "meta": {
+                "author": "Generated",
+                "origin_country": "Middle East",
+                "category": "Wrap",
+                "servings": 2,
+                "diet": [
+                    "vegan"
+                ],
+                "difficulty": "easy",
+                "total_time_min": 12
+            },
+            "equipment": [
+                "bowl",
+                "fork",
+                "knife"
+            ],
+            "ingredients": [
+                {
+                    "id": "r11i1",
+                    "name": "Tortilla wraps",
+                    "quantity": 2,
+                    "unit": "pcs"
+                },
+                {
+                    "id": "r11i2",
+                    "name": "Avocado",
+                    "quantity": 1,
+                    "unit": "pcs"
+                },
+                {
+                    "id": "r11i3",
+                    "name": "Chickpeas",
+                    "quantity": 200,
+                    "unit": "g",
+                    "notes": "cooked, rinsed"
+                },
+                {
+                    "id": "r11i4",
+                    "name": "Lemon juice",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "id": "r11i5",
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                },
+                {
+                    "id": "r11i6",
+                    "name": "Paprika powder",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                },
+                {
+                    "id": "r11i7",
+                    "name": "Lettuce",
+                    "quantity": 60,
+                    "unit": "g"
+                }
+            ],
+            "steps": [
+                {
+                    "index": 1,
+                    "caption": "Mash",
+                    "description": "Mash avocado with chickpeas, lemon juice, salt, and paprika.",
+                    "duration_min": 5,
+                    "uses": [
+                        "r11i2",
+                        "r11i3",
+                        "r11i4",
+                        "r11i5",
+                        "r11i6"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "caption": "Assemble",
+                    "description": "Fill wraps with lettuce and the mash. Roll tight.",
+                    "duration_min": 7,
+                    "uses": [
+                        "r11i1",
+                        "r11i7",
+                        "r11i2"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "r12",
+            "title": "Avocado Caprese Salad",
+            "meta": {
+                "author": "Generated",
+                "origin_country": "Italy",
+                "category": "Salad",
+                "servings": 2,
+                "diet": [
+                    "vegetarian",
+                    "gluten-free"
+                ],
+                "difficulty": "easy",
+                "total_time_min": 8
+            },
+            "equipment": [
+                "knife",
+                "plate"
+            ],
+            "ingredients": [
+                {
+                    "id": "r12i1",
+                    "name": "Avocado",
+                    "quantity": 1,
+                    "unit": "pcs"
+                },
+                {
+                    "id": "r12i2",
+                    "name": "Tomatoes",
+                    "quantity": 200,
+                    "unit": "g"
+                },
+                {
+                    "id": "r12i3",
+                    "name": "Mozzarella",
+                    "quantity": 125,
+                    "unit": "g"
+                },
+                {
+                    "id": "r12i4",
+                    "name": "Basil leaves",
+                    "quantity": 8,
+                    "unit": "g"
+                },
+                {
+                    "id": "r12i5",
+                    "name": "Olive oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "id": "r12i6",
+                    "name": "Balsamic vinegar",
+                    "quantity": 1,
+                    "unit": "tsp"
+                },
+                {
+                    "id": "r12i7",
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "index": 1,
+                    "caption": "Slice",
+                    "description": "Slice avocado, tomatoes, and mozzarella.",
+                    "duration_min": 4,
+                    "uses": [
+                        "r12i1",
+                        "r12i2",
+                        "r12i3"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "caption": "Dress",
+                    "description": "Arrange with basil, drizzle oil and balsamic, season with salt.",
+                    "duration_min": 4,
+                    "uses": [
+                        "r12i4",
+                        "r12i5",
+                        "r12i6",
+                        "r12i7"
+                    ]
+                }
+            ]
+        }
+    ]
+}
