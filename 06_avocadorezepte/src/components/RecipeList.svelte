@@ -4,6 +4,12 @@
   // The parent (App) passes the recipes array into this component
   export let recipes = [];
 
+function logRecipeNames() {
+    recipes.forEach(recipe => {
+        console.log(recipe.name);
+    });
+}
+
   console.log('RecipeList received recipes:', recipes);
 </script>
 
