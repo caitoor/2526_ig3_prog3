@@ -17,6 +17,10 @@
   <p>greuzuig4ewt43g4ezjtgui345ztb45uth835jzth5uo4oiohj45wuo</p>
   <div class="card">
     <Counter />
+    <Counter />
+    <Counter />
+    <Counter />
+    <Counter />
   </div>
 
   <p>
