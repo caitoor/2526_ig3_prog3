@@ -1,8 +1,12 @@
 <script>
   import Dancefloor from "./components/Dancefloor.svelte";
-  let testArray = new Array(5);
+  //let testArray = new Array(5).fill(0);
+  let testArray = [0, 0, 0, 0, 0];
 
-  testArray.forEach((_, i) => {
+  console.log(testArray);
+
+  testArray.forEach((currentItem, i) => {
+    console.log(currentItem);
     testArray[i] = i * 2;
   });
 
