@@ -1,4 +1,5 @@
 <script>
+  //test
   import Header from "./components/Header.svelte";
   import LandingPage from "./components/LandingPage.svelte";
   import RandomMeal from "./components/RandomMeal.svelte";
@@ -12,7 +13,7 @@
   function showRandomMeal() {
     currentScreen = "randomMeal";
   }
-  
+
 </script>
 
 <div id="wrapper">
