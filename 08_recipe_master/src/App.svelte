@@ -13,14 +13,23 @@
   function showRandomMeal() {
     currentScreen = "randomMeal";
   }
-
 </script>
 
 <div id="wrapper">
   <Header />
   <nav>
-    <button on:click={showLandingPage}>Start</button>
-    <button on:click={showRandomMeal}>Random Meal</button>
+    <button on:click={showLandingPage}
+      class:selectedButton={currentScreen === "start"}
+    >
+      Start
+    </button>
+
+    <button
+      on:click={showRandomMeal}
+      class:selectedButton={currentScreen === "randomMeal"}
+    >
+      Random Meal
+    </button>
   </nav>
   <main>
     {#if currentScreen === "randomMeal"}
@@ -45,5 +54,10 @@
 
   main {
     padding: 5px;
+  }
+
+  .selectedButton {
+    background-color: black;
+    color: white;
   }
 </style>
