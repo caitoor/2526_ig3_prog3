@@ -6,11 +6,8 @@
         // grabs a random meal from the API
 
         try {
-            const response = await fetch(
-                "https://www.themealdb.com/api/json/v1/1/random.php",
-            );
-            const data = await response.json();
-            meal = data.meals[0];
+            const response = await fetch("http://localhost:3000/random");
+            meal = await response.json();
             console.log(meal);
         } catch (error) {
             console.error("Error fetching random meal:", error);

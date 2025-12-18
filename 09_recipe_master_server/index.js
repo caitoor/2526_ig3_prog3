@@ -14,6 +14,21 @@ app.get("/status", (req, res) => {
     res.json({ status: "Recipe Master Server is running!" });
 });
 
+app.get("/random", async (req, res) => {
+    console.log("Received random recipe request");
+    try {
+        const response = await fetch("https://www.themealdb.com/api/json/v1/1/random.php");
+        const data = await response.json();
+        meal = data.meals[0];
+        console.log("Fetched random recipe:", meal);
+        res.json(meal);
+    }
+    catch (error) {
+        console.error("Error fetching random recipe:", error);
+
+    }
+});
+
 app.post("/chat", async (req, res) => {
     console.log("Received chat request:", req.body);
     const userMessage = req.body.message;
