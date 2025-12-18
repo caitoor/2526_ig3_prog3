@@ -4,16 +4,19 @@
 
   async function sendMessage() {
     try {
-      const response = await fetch("http://localhost:3000/chat", {
+      const response = await fetch("http://localhost:3000/vegetable", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({ message: my_message }),
       });
-
+      console.log(response);
       const data = await response.json();
-      ollama_response = data.answer;
+      console.log(data);
+      const responseJSON = JSON.parse(await data.answer);
+      ollama_response = `The name ${responseJSON.inputName} reminds me of a ${responseJSON.vegetable}. ${responseJSON.explanation}`;
+
       console.log(ollama_response);
     } catch (error) {
       console.error("Error posting to chat endpoint:", error);

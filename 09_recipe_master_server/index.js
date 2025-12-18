@@ -34,6 +34,41 @@ app.post("/chat", async (req, res) => {
     res.json({ answer: ollamaJson.response });
 });
 
+app.post("/vegetable", async (req, res) => {
+    console.log("Received chat request:", req.body);
+    const inputName = req.body.message;
+
+    const schema = {
+        type: "object",
+        properties: {
+            inputName: { type: "string" },
+            vegetable: { type: "string" },
+            explanation: { type: "string" }
+        },
+        required: ["inputName", "vegetable", "explanation"]
+    };
+
+    const assembledPrompt = `
+    given the name ${inputName}, choose a vegetable that matches this name.
+    `;
+
+    const ollamaResponse = await fetch("http://localhost:11434/api/generate", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+            prompt: assembledPrompt,
+            model: "llama3.2",
+            stream: false,
+            format: schema
+        })
+    });
+    const ollamaJson = await ollamaResponse.json();
+    console.log("Ollama response:", ollamaJson);
+    res.json({ answer: ollamaJson.response });
+});
+
 app.listen(PORT, () => {
     // meldung, wenn der server gestartet ist
     console.log(`Server is running on http://localhost:${PORT}`);
